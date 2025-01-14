@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EFF6909A2D36F0C9008D1D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF690812D36F0C7008D1D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF690882D36F0C7008D1D92;
+			remoteInfo = "dice-roll-ios-app";
+		};
+		EFF690A42D36F0C9008D1D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF690812D36F0C7008D1D92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF690882D36F0C7008D1D92;
+			remoteInfo = "dice-roll-ios-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFF690892D36F0C7008D1D92 /* dice-roll-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dice-roll-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF690992D36F0C9008D1D92 /* dice-roll-ios-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dice-roll-ios-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF690A32D36F0C9008D1D92 /* dice-roll-ios-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dice-roll-ios-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFF6908B2D36F0C7008D1D92 /* dice-roll-ios-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "dice-roll-ios-app";
+			sourceTree = "<group>";
+		};
+		EFF6909C2D36F0C9008D1D92 /* dice-roll-ios-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "dice-roll-ios-appTests";
+			sourceTree = "<group>";
+		};
+		EFF690A62D36F0C9008D1D92 /* dice-roll-ios-appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "dice-roll-ios-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF690862D36F0C7008D1D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF690962D36F0C9008D1D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF690A02D36F0C9008D1D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF690802D36F0C7008D1D92 = {
+			isa = PBXGroup;
+			children = (
+				EFF6908B2D36F0C7008D1D92 /* dice-roll-ios-app */,
+				EFF6909C2D36F0C9008D1D92 /* dice-roll-ios-appTests */,
+				EFF690A62D36F0C9008D1D92 /* dice-roll-ios-appUITests */,
+				EFF6908A2D36F0C7008D1D92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF6908A2D36F0C7008D1D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF690892D36F0C7008D1D92 /* dice-roll-ios-app.app */,
+				EFF690992D36F0C9008D1D92 /* dice-roll-ios-appTests.xctest */,
+				EFF690A32D36F0C9008D1D92 /* dice-roll-ios-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF690882D36F0C7008D1D92 /* dice-roll-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF690AD2D36F0C9008D1D92 /* Build configuration list for PBXNativeTarget "dice-roll-ios-app" */;
+			buildPhases = (
+				EFF690852D36F0C7008D1D92 /* Sources */,
+				EFF690862D36F0C7008D1D92 /* Frameworks */,
+				EFF690872D36F0C7008D1D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFF6908B2D36F0C7008D1D92 /* dice-roll-ios-app */,
+			);
+			name = "dice-roll-ios-app";
+			packageProductDependencies = (
+			);
+			productName = "dice-roll-ios-app";
+			productReference = EFF690892D36F0C7008D1D92 /* dice-roll-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFF690982D36F0C9008D1D92 /* dice-roll-ios-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF690B02D36F0C9008D1D92 /* Build configuration list for PBXNativeTarget "dice-roll-ios-appTests" */;
+			buildPhases = (
+				EFF690952D36F0C9008D1D92 /* Sources */,
+				EFF690962D36F0C9008D1D92 /* Frameworks */,
+				EFF690972D36F0C9008D1D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF6909B2D36F0C9008D1D92 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFF6909C2D36F0C9008D1D92 /* dice-roll-ios-appTests */,
+			);
+			name = "dice-roll-ios-appTests";
+			packageProductDependencies = (
+			);
+			productName = "dice-roll-ios-appTests";
+			productReference = EFF690992D36F0C9008D1D92 /* dice-roll-ios-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFF690A22D36F0C9008D1D92 /* dice-roll-ios-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF690B32D36F0C9008D1D92 /* Build configuration list for PBXNativeTarget "dice-roll-ios-appUITests" */;
+			buildPhases = (
+				EFF6909F2D36F0C9008D1D92 /* Sources */,
+				EFF690A02D36F0C9008D1D92 /* Frameworks */,
+				EFF690A12D36F0C9008D1D92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF690A52D36F0C9008D1D92 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFF690A62D36F0C9008D1D92 /* dice-roll-ios-appUITests */,
+			);
+			name = "dice-roll-ios-appUITests";
+			packageProductDependencies = (
+			);
+			productName = "dice-roll-ios-appUITests";
+			productReference = EFF690A32D36F0C9008D1D92 /* dice-roll-ios-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF690812D36F0C7008D1D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					EFF690882D36F0C7008D1D92 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					EFF690982D36F0C9008D1D92 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EFF690882D36F0C7008D1D92;
+					};
+					EFF690A22D36F0C9008D1D92 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EFF690882D36F0C7008D1D92;
+					};
+				};
+			};
+			buildConfigurationList = EFF690842D36F0C7008D1D92 /* Build configuration list for PBXProject "dice-roll-ios-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFF690802D36F0C7008D1D92;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFF6908A2D36F0C7008D1D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF690882D36F0C7008D1D92 /* dice-roll-ios-app */,
+				EFF690982D36F0C9008D1D92 /* dice-roll-ios-appTests */,
+				EFF690A22D36F0C9008D1D92 /* dice-roll-ios-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF690872D36F0C7008D1D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF690972D36F0C9008D1D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF690A12D36F0C9008D1D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF690852D36F0C7008D1D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF690952D36F0C9008D1D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF6909F2D36F0C9008D1D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFF6909B2D36F0C9008D1D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF690882D36F0C7008D1D92 /* dice-roll-ios-app */;
+			targetProxy = EFF6909A2D36F0C9008D1D92 /* PBXContainerItemProxy */;
+		};
+		EFF690A52D36F0C9008D1D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF690882D36F0C7008D1D92 /* dice-roll-ios-app */;
+			targetProxy = EFF690A42D36F0C9008D1D92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFF690AB2D36F0C9008D1D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFF690AC2D36F0C9008D1D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF690AE2D36F0C9008D1D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dice-roll-ios-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.dice-roll-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF690AF2D36F0C9008D1D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dice-roll-ios-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.dice-roll-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFF690B12D36F0C9008D1D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.dice-roll-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dice-roll-ios-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dice-roll-ios-app";
+			};
+			name = Debug;
+		};
+		EFF690B22D36F0C9008D1D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.dice-roll-ios-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dice-roll-ios-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dice-roll-ios-app";
+			};
+			name = Release;
+		};
+		EFF690B42D36F0C9008D1D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.dice-roll-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dice-roll-ios-app";
+			};
+			name = Debug;
+		};
+		EFF690B52D36F0C9008D1D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.dice-roll-ios-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dice-roll-ios-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF690842D36F0C7008D1D92 /* Build configuration list for PBXProject "dice-roll-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF690AB2D36F0C9008D1D92 /* Debug */,
+				EFF690AC2D36F0C9008D1D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF690AD2D36F0C9008D1D92 /* Build configuration list for PBXNativeTarget "dice-roll-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF690AE2D36F0C9008D1D92 /* Debug */,
+				EFF690AF2D36F0C9008D1D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF690B02D36F0C9008D1D92 /* Build configuration list for PBXNativeTarget "dice-roll-ios-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF690B12D36F0C9008D1D92 /* Debug */,
+				EFF690B22D36F0C9008D1D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF690B32D36F0C9008D1D92 /* Build configuration list for PBXNativeTarget "dice-roll-ios-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF690B42D36F0C9008D1D92 /* Debug */,
+				EFF690B52D36F0C9008D1D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF690812D36F0C7008D1D92 /* Project object */;
+}
