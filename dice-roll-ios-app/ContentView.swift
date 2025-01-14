@@ -14,8 +14,8 @@ struct ContentView: View {
     let dices: [String] = ["DiceOne", "DiceTwo", "DiceThree", "DiceFour", "DiceFive", "DiceSix"]
     
     func rollDice() {
-        let randomLeftDice = Int.random(in: 0...5)
-        let randomRightDice = Int.random(in: 0...5)
+        let randomLeftDice: Int = Int.random(in: 0...5)
+        let randomRightDice: Int = Int.random(in: 0...5)
         
         leftDice = dices[randomLeftDice]
         rightDice = dices[randomRightDice]
