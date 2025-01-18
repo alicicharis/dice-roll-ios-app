@@ -34,15 +34,9 @@ struct ContentView: View {
             VStack {
                 HStack() {
                     Spacer()
-                    Image(leftDice)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: 100, maxHeight: 100)
+                    DiceView(diceImage: leftDice)
                     Spacer()
-                    Image(rightDice)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: 100, maxHeight: 100)
+                    DiceView(diceImage: rightDice)
                     Spacer()
                 }
             }
@@ -73,4 +67,15 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+}
+
+struct DiceView: View {
+    var diceImage: String
+    
+    var body: some View {
+        Image(diceImage)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(maxWidth: 100, maxHeight: 100)
+    }
 }
